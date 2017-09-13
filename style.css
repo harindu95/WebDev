@@ -1,0 +1,10 @@
+.nav {
+    background-color: #1DCACA;
+    height: 100px; 
+}
+
+.menu-item {
+
+    display: inline-block;
+    font-size:30px;
+}
