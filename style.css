@@ -1,10 +1,39 @@
+html{
+    background-color: #ffffff;
+}
+body{
+    padding: 0 !important;
+    max-width:800px;
+    height: 800px;
+    margin:0px auto;
+    background-color: #000000;
+}
+
 .nav {
-    background-color: #1DCACA;
+    background-color: rgba(95, 99, 112, 0.9);
+    margin: 0px;
     height: 100px; 
 }
+
+.logo {
+    font-size: 50px;
+    padding:10px;
+    float: left;
+    color:rgba(221, 115, 28, 0.68);
+    font-family: '2dumbregular';
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+.menu {
+   margin-left: 60%;
+   list-style: none;
+   padding-top: 20px;
+}
+
 
 .menu-item {
 
     display: inline-block;
+    padding: 10px 15px;
     font-size:30px;
 }
