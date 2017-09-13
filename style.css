@@ -1,39 +1,96 @@
-html{
-    background-color: #ffffff;
+*{
+    margin: 0px ;
+    padding: 0px;
+    /* border: 0.25px solid black; */
 }
 body{
     padding: 0 !important;
-    max-width:800px;
-    height: 800px;
-    margin:0px auto;
-    background-color: #000000;
+    /* max-width:800px; */
+    /* height: 800px; */
+    /* margin:0px auto; */
+    /* background-color: #000000; */
+}
+
+.page_wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
 }
 
 .nav {
-    background-color: rgba(95, 99, 112, 0.9);
+    background-color: rgb(238, 128, 3);
     margin: 0px;
-    height: 100px; 
+    height: 60px; 
+    color:#ffffff;
+    
 }
 
 .logo {
-    font-size: 50px;
-    padding:10px;
+    font-size: 40px;
+    margin-left:10px;
     float: left;
-    color:rgba(221, 115, 28, 0.68);
-    font-family: '2dumbregular';
+    font-family: 'Lobster', cursive;
     font-style: italic;
     text-shadow: 2px 2px black;
 }
 .menu {
-   margin-left: 60%;
-   list-style: none;
-   padding-top: 20px;
+    margin-left: 60%;
+    list-style: none;
+    /* padding-top: 5px; */
+    /* text-align: center; */
 }
 
 
 .menu-item {
-
     display: inline-block;
-    padding: 10px 15px;
+    padding: 8px 15px;
+    margin-top:5px;
     font-size:30px;
+}
+
+.menu-item:hover{
+    background-color: #ffffff;;
+    color: rgb(238, 128, 3);
+}
+
+.banner {
+    width:100%;
+    max-height:30%;
+    background: #29BACD
+    /* background-image: url("assets/images/banner-web-design.png"); */
+}
+
+.banner img{   
+    width:100%;
+    height: auto
+} 
+
+.technology{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width:60%;
+    margin:10px auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex:1;
+    -moz-box-flex:1;
+    -ms-flex:1;
+    -webkit-box-flex:1;
+    flex:1
+}
+.tech-col{
+    width:20%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
